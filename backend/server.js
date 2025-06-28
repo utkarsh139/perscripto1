@@ -6,7 +6,11 @@ import connectCloudinary from "./config/cloudinary.js"
 import userRouter from "./routes/userRoute.js"
 import doctorRouter from "./routes/doctorRoute.js"
 import adminRouter from "./routes/adminRoute.js"
-
+//backend config
+app.use(cors({
+  origin: "https://perscripto1.vercel.app", // Replace with your actual Vercel frontend URL
+  credentials: true,
+}));
 // app config
 const app = express()
 const port = process.env.PORT || 4000
