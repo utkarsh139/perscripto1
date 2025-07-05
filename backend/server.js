@@ -8,7 +8,7 @@ import doctorRouter from "./routes/doctorRoute.js"
 import adminRouter from "./routes/adminRoute.js"
 //backend config
 app.use(cors({
-  origin: "https://perscripto1.vercel.app", // Replace with your actual Vercel frontend URL
+  origin: "https://perscripto1.vercel.app",
   credentials: true,
 }));
 // app config
@@ -31,3 +31,6 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => console.log(`Server started on PORT:${port}`))
+app.get("/api/test", (req, res) => {
+  res.json({ message: "Backend is working!" });
+});
