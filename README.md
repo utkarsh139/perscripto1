@@ -7,7 +7,6 @@
 
 A full-fledged MERN stack application for online doctor appointments with separate admin and user interfaces, featuring doctor management and upcoming payment integrations.
 
-![Perscripto Dashboard Preview](https://via.placeholder.com/800x400?text=Perscripto+Dashboard+Preview) <!-- Replace with actual screenshot -->
 
 ## 🌟 Key Features
 
